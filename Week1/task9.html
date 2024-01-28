@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task9</title>
+</head>
+<body>
+
+    <form style="max-width: 1000px; margin-left: 5%;">
+
+        <center>
+            <h1>Pete's Pizza Delivery</h1>
+            <h2>Online Order Form</h2>
+        </center>
+
+        <label for="username" style="margin-left: 30px;">*Name:</label>
+        <input type="text" id="username" name="username" required style="width: 30%; padding: 3px; margin-top: 5px; margin-left: 10px;">
+
+        <label for="Tel" style="margin-left: 40px;">*Tel:</label>
+        <input type="tel" id="tel" name="tel" required style="width: 30%; padding: 3px; margin-top: 5px; margin-left: 10px"><br>
+        
+        <label for="Address" style="margin-left: 16px;">*Address:</label>
+        <input type="address" id="address" name="address" required style="width: 30%; padding: 3px; margin-top: 5px; margin-left: 10px">
+
+        <label for="Email" style="margin-left: 23px;">*Email:</label>
+        <input type="email" id="email" name="email" required style="width: 30%; padding: 3px; margin-top: 5px;  margin-left: 8px"><br>
+
+        <label for="town">*Town/City:</label>
+        <input type="address" id="address" name="address" required style="width: 30%; padding: 3px; margin-top: 5px; margin-left: 10px"><br>
+
+        <center>
+            <p>* required fields</p>
+        </center>
+
+        <h2 style="margin-left: 80px; display: inline-block;">Topping</h2>
+        <h2 style="margin-left: 80px; display: inline-block;">Size</h2>
+        <h2 style="margin-left: 80px; display: inline-block;">Extras</h2>
+        <br>
+
+        <!-- row 1 -->
+        <input type="radio" id="t1" name="t1" value="Margherita" style="margin-left: 85px; display: inline-block;" >
+        <label for="html">Margherita</label>
+
+        <input type="radio" id="s1" name="s1" value="small" style="margin-left: 70px; display: inline-block;">
+        <label for="small">Small</label>
+
+        <input type="checkbox" id="e1" name="e1" value="Mushroom" style="margin-left: 70px; display: inline-block;">
+        <label for="small">Small</label><br>
+
+        <!-- row 2 -->
+        <input type="radio" id="t2" name="t2" value="Four Seasons" style="margin-left: 85px; display: inline-block;">
+        <label for="fousSeasons">Four Seasons</label>
+
+        <input type="radio" id="s2" name="s2" value="Medium" style="margin-left: 55px; display: inline-block;">
+        <label for="Medium">Medium</label>
+
+        <input type="checkbox" id="e2" name="e2" value="Green peppers" style="margin-left: 53px; display: inline-block;">
+        <label for="Green peppers">Green peppers</label><br>
+
+        <!-- row 3 -->
+        <input type="radio" id="t3" name="t3" value="Meat Feast" style="margin-left: 85px; display: inline-block;">
+        <label for="Meat Feast">Meat Feast</label>
+
+        <input type="radio" id="s3" name="s3" value="Large" style="margin-left: 70px; display: inline-block;">
+        <label for="Large">Large</label>
+
+        <input type="checkbox" id="e3" name="e3" value="Anchvies" style="margin-left: 70px; display: inline-block;">
+        <label for="Anchvies">Anchvies</label><br>
+
+        <!-- row 4 -->
+        <input type="checkbox" id="e4" name="e4" value="Extra Cheese" style="margin-left: 381px; display: inline-block;">
+        <label for="Extra Cheese">Extra Cheese</label><br>
+        <br>
+
+        <p style="margin-left: 70px;  display: inline-block;">Preferred delivery time:</p>
+        <input type="time" id="deliveryTime" name="deliveryTime" style="width: 15%; margin-left: 20px;"><br>
+
+        <p style="margin-left: 88px; display: inline-block; vertical-align: top;">delivery instructions:</p>
+        <textarea id="deliveryInstructions" name="deliveryInstructions" rows="4" style="margin-left: 19px;  display: inline-block;  vertical-align: top;"></textarea>
+        <br><br>
+
+        <button style="margin-left: 200px;">Submit order</button>
+
+    </form>
+</body>
+</html>
