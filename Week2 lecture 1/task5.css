@@ -1,6 +1,8 @@
 body {
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #F4F4F4;
     box-sizing: border-box;
 }
 
@@ -67,3 +69,92 @@ body {
     margin: 5px 20px;
 }
 
+.next-section {
+    /* text-align: center; */
+    color: #333;
+    height: calc(100vh - 30vh);
+}
+
+.about-me,
+.personal-info,
+.education,
+.work-info,
+.projects,
+.skills-info {
+    margin: 30px auto; /* Center the divs horizontally */
+    background-color: #FFFEFF;
+    width: 90%; /* Adjust width as needed */
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box-shadow for a subtle shadow effect */
+    transition: width 0.5s ease-in-out, height 0.5s ease-in-out; /* Add transition for width and height */
+}
+
+.about-me {
+    width: 90%; /* Set the initial width for about-me */
+    height: 90px; /* Set the initial height for about-me */
+}
+
+.personal-info {
+    width: 90%; /* Set the initial width for personal-info */
+    height: 140px; /* Set the initial height for personal-info */
+}
+
+.education {
+    width: 90%;
+    height: 130px;
+}
+
+.work-info {
+    width: 90%;
+    height: 140px;
+}
+
+.projects {
+    width: 90%;
+    height: 280px;
+}
+
+.skills-info {
+    width: 90%;
+    height: 110px;
+}
+
+.about-me:hover {
+    width: calc(95%); /* Increase the width by 5% on hover for about-me */
+    height: calc(100px); /* Increase the height for about-me */
+}
+
+.personal-info:hover {
+    width: calc(95%); /* Increase the width by 5% on hover for personal-info */
+    height: calc(150px); /* Increase the height for personal-info */
+}
+
+.education:hover {
+    width: calc(95%);
+    height: calc(140px);
+}
+
+.work-info:hover {
+    width: calc(95%);
+    height: calc(150px);
+}
+
+.projects:hover {
+    width: calc(95%);
+    height: calc(290px);
+}
+
+.skills-info:hover {
+    width: calc(95%);
+    height: calc(120px);
+}
+
+
+
+.contact-bar {
+    background-color: #49525F;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
