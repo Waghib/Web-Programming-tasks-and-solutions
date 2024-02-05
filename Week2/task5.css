@@ -8,23 +8,23 @@ body {
 
 .upper-frame {
     background-color: #77869B;
-    height: 30vh; /* Full height of the viewport */
+    height: 30vh;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
-    flex-direction: column; /* Change to column layout */
+    flex-direction: column; 
 }
 
 .inner-frame{
     /* background-color: black; */
     width: 500px;
-    height: 30vh; /* Full height of the viewport */
+    height: 30vh;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
-    position: relative; /* Add position relative to allow positioning of the social-links div */
+    position: relative; 
 }
 
 .name-container {
@@ -35,7 +35,7 @@ body {
 }
 
 .portfolio-image1{
-    border: 2px solid black;
+    border: 2px solid white;
     position: relative;
     top: -20px;
     margin-left: 10px;
@@ -43,21 +43,21 @@ body {
     padding: 3px;
     padding-top: 4px;
     padding-bottom: 0px;
-    margin-bottom: 10px; /* Add margin to separate from the next div */
+    margin-bottom: 10px;
 }
 
 .social-links {
     position: absolute;
     bottom: 5px;
-    left: 50%; /* Adjust as needed to center the social links */
-    transform: translateX(-50%); /* Center the social links horizontally */
+    left: 50%; 
+    transform: translateX(-50%); 
     display: flex;
-    width: 100%; /* Ensure full width */
+    width: 100%; 
 }
 
 .social-links a {
     display: flex;
-    align-items: center; /* Align the icon and label vertically */
+    align-items: center;
     margin: 0 20px;
 }
 
@@ -81,23 +81,23 @@ body {
 .work-info,
 .projects,
 .skills-info {
-    margin: 30px auto; /* Center the divs horizontally */
+    margin: 30px auto;
     background-color: #FFFEFF;
-    width: 90%; /* Adjust width as needed */
+    width: 90%; 
     padding: 20px;
     border-radius: 6px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box-shadow for a subtle shadow effect */
-    transition: width 0.5s ease-in-out, height 0.5s ease-in-out; /* Add transition for width and height */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: width 0.5s ease-in-out, height 0.5s ease-in-out; 
 }
 
 .about-me {
-    width: 90%; /* Set the initial width for about-me */
-    height: 90px; /* Set the initial height for about-me */
+    width: 90%; 
+    height: 90px;
 }
 
 .personal-info {
-    width: 90%; /* Set the initial width for personal-info */
-    height: 140px; /* Set the initial height for personal-info */
+    width: 90%; 
+    height: 140px;
 }
 
 .education {
@@ -112,7 +112,7 @@ body {
 
 .projects {
     width: 90%;
-    height: 280px;
+    height: 350px;
 }
 
 .skills-info {
@@ -121,13 +121,13 @@ body {
 }
 
 .about-me:hover {
-    width: calc(95%); /* Increase the width by 5% on hover for about-me */
-    height: calc(100px); /* Increase the height for about-me */
+    width: calc(95%); 
+    height: calc(100px);
 }
 
 .personal-info:hover {
-    width: calc(95%); /* Increase the width by 5% on hover for personal-info */
-    height: calc(150px); /* Increase the height for personal-info */
+    width: calc(95%);
+    height: calc(150px);
 }
 
 .education:hover {
@@ -142,7 +142,7 @@ body {
 
 .projects:hover {
     width: calc(95%);
-    height: calc(290px);
+    height: calc(370px);
 }
 
 .skills-info:hover {
@@ -157,4 +157,34 @@ body {
     color: white;
     text-align: center;
     padding: 20px;
+}
+
+.btn-design {
+    color: white;
+    background-color: #0255C0;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    transition: width 3s ease;
+    text-align: left;
+    position: relative;
+}
+
+.btn-design::after {
+    content: '>';
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: opacity 0s ease, width 0s ease;
+}
+
+.btn-design:hover {
+    width: calc(114px);
+}
+
+.btn-design:hover::after {
+    opacity: 1;
+    width: auto;
 }
