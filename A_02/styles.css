@@ -1,0 +1,71 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+header{
+    margin: 0;
+}
+
+/* navigation bar setting */
+.navbar{
+    background-color: #E05C00;
+    color: white;
+    margin: 0;
+    padding: 2px;
+    padding-left: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar h1{
+    margin-right: auto;
+}
+
+.navbar-buttons{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-buttons li{
+    margin-right: 25px;
+}
+
+.navbar-buttons li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Pizza image */
+
+.slider {
+    overflow: hidden;
+    position: relative;
+}
+
+.slider {
+    display: flex;
+    width: 200%; /* Double the width to accommodate two images side by side */
+    animation: slide 8s linear infinite; /* 3s for animation and 5s for delay */
+}
+
+.slider img {
+    flex: 0 0 50%; /* Ensure each image takes up 50% of the container width */
+    width: 100%; /* Ensure images take up the full width of their containers */
+}
+
+@keyframes slide {
+    0%, 37.5% {
+        transform: translateX(-50%);
+    }
+    37.5%, 100% {
+        transform: translateX(0%);
+    }
+}
+
+
+
+
+
