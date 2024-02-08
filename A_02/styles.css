@@ -1,6 +1,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+    overflow-x: hidden;
 }
 
 header{
@@ -64,6 +65,44 @@ header{
         transform: translateX(0%);
     }
 }
+
+/* today's special label */
+
+.special-label{
+    text-align: center;
+    /* background-color: gray; */
+    align-content: center;
+}
+
+.special-label h1{
+    padding-bottom: 5px;
+}
+
+/* speacial Pizza pictures */
+
+.special-pizza{
+    display: flex;
+}
+
+.special-pizza-images{
+    /* display: flex; */
+    border-radius: 4px;
+    margin-left: 20px;
+    width: 29%;
+    padding: 15px;
+    /* background-color:aquamarine; */
+    box-shadow: 2px 5px 5px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.special-pizza-images img{
+    border-radius: 4px;
+}
+
+.special-pizza-images p{
+    text-align: center;
+}
+
+
 
 
 
