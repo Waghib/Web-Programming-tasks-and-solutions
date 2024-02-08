@@ -13,13 +13,25 @@
         <header>
             <nav class="navbar">
                 <h1>Pizza Delight</h1>
+                <div class="container">
+                    <div class="red flame"></div>
+                    <div class="orange flame"></div>
+                    <div class="yellow flame"></div>
+                    <div class="white flame"></div>
+                    <div class="blue flame"></div>
+                    <div class="black flame"></div>
+                </div>
                 <ul class="navbar-buttons">
                     <li><a href="#"><b>Menu</b></a></li>
                     <li><a href="#"><b>Specials</b></a></li>
                     <li><a href="#"><b>Order Online</b></a></li>
                     <li><a href="#"><b>Contact</b></a></li>
                 </ul>
+                <div class="img-cart">
+                    <img src="images/cart.png" alt="Add to cart">
+                </div>
             </nav>
+
         </header>        
 
         <section class="slider">
@@ -48,23 +60,60 @@
         </section>
 
         <section class="testimonials">
-            ...
+
+            <h1>What Our Customers Say</h1>
+            <p style="opacity: 0.9;"><i>&quot;The best pizza in town! I can't get enough of their delicious crust and fresh toppings&quot;</i></p>
+            <p style="opacity: 0.6;"><i>- John D</i></p>
+            <p style="opacity: 0.9;"><i>&quot;Pizza Delight never disappoints. Quick delivery and mouth-watering flavors. Highly recommended&quot;</i></p>
+            <p style="opacity: 0.6;"><i>- Sarah M</i></p>
+
         </section>
 
         <section class="cta">
-            ...
+            <h1>Ready to Order?</h1>
+            <p>Experience the taste or perfection. Order now and enjoy a delightful pizza experience!</p>
+            <button>Order Now</button>
         </section>
 
-        <section class="three-columns">
-            ...
+        <section class="three-rows">
+            <div class="rows">
+                <h4>Quality Ingredients</h4>
+                <p>We use only the finest and freshest ingredients to craft our delicious pizzas.</p>
+            </div>
+            <div class="rows">
+                <h4>Customization Options</h4>
+                <p>Customize your pizza with a variety of toppings, sauces, and crust options to suit your taste.</p>
+            </div>
+            <div class="rows">
+                <h4>Fast Delivery</h4>
+                <p>Enjoy quick and reliable delivery services to savor your pizza at its best.</p>
+            </div>
         </section>
 
         <section class="contact-form">
-            Add the form of task 1...
+            <h1>Contact Us</h1>
+            <form method="get">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Waghib Ahmad">
+    
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Waghib@example.com">
+    
+                <label for="phone">Your Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required placeholder="Format 123-456-7890">
+    
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="4" required placeholder="Type your message here..."></textarea>
+    
+                <div class="button">
+                    <input type="submit" value="Submit" class="submit-button">
+                    <input type="reset" value="Reset" class="reset-button">
+                </div>
+            </form>
         </section>
 
         <footer>
-            ...
+            <p style="margin: auto; color: white;">&copy; 2024 Pizza Delight. All rights reserved.</p>
         </footer>
 
     </body>
