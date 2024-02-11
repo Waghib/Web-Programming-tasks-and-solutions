@@ -1,4 +1,4 @@
-# Assignment-01 (PART-B)
+# Assignment-01 (PART B)
 
 ## images
 
