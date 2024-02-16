@@ -19,6 +19,22 @@ header{
     align-items: center;
 }
 
+.navbar-buttons{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-buttons li{
+    margin-right: 25px;
+}
+
+.navbar-buttons li a {
+    color: white;
+    text-decoration: none;
+}
+
 .img-cart{
     margin-bottom: 7px;
     margin-right: 5px;
@@ -118,21 +134,6 @@ header{
     }
 }
 
-.navbar-buttons{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-.navbar-buttons li{
-    margin-right: 25px;
-}
-
-.navbar-buttons li a {
-    color: white;
-    text-decoration: none;
-}
 
 /* Pizza image */
 
@@ -256,12 +257,12 @@ header{
     border-radius: 4px;
     padding-left: 13px;
     padding-right: 13px;
-    transition: background-color 3s; /* Transition over 2 seconds */
+    /* transition: background-color 3s; Transition over 2 seconds */
     margin-bottom: 3%;
 }
 
 .cta button:hover {
-    animation: changeColor 3s forwards;
+    animation: changeColor 5s forwards;
 }
 
 @keyframes changeColor {
