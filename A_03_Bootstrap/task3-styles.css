@@ -9,6 +9,17 @@
     color: white;
 }
 
+/* .navbar-toggler-icon {
+    color: white; 
+    background-color: white;
+} */
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
 body {
     background-color: #232323;
     overflow-x: hidden;
@@ -142,7 +153,7 @@ body {
     height: 80vh;
 }
 
-.about-us {
+.about-us{
     width: 100%;
     height: 320px;
     background-color: rgb(54, 54, 54);
@@ -250,7 +261,7 @@ body {
 .heading-product {
     font-size: 34px;
     color: #7B5CD1;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
     position: relative;
 }
 
@@ -329,13 +340,13 @@ body {
 /* production section completed  */
 
 
-/* slider testimonials started */
+/* testimonials section started */
 
 .testimonials{
     width: 100%;
     height: 100vh;
     padding: 20px;
-    margin-top: 60px;
+    margin-top: 110px;
 }
 
 .heading-testimonials{
@@ -343,7 +354,7 @@ body {
     font-size: 42px;
     font-weight: 700;
     color: rgb(255, 255, 255, 0.884);
-    margin-bottom: 35px;
+    margin-bottom: 30px;
 }
 
 .heading-testimonials .styling{
@@ -356,12 +367,12 @@ body {
     letter-spacing: 1px;
     text-align: center !important;
     max-width: 760px;
-    margin: 12px auto;
+    margin: 10px auto;
     line-height: 25px;
 }
 
 .container-clients{
-    margin: 100px 0px 20px 0px;
+    margin: 90px 0px 20px 0px;
 }
 
 .container-content{
@@ -443,8 +454,137 @@ body {
 
 .carousel-indicators{
     position: absolute;
-    bottom: -68px !important;
+    bottom: -45px !important;
 }
 
 
-/* slider testimonials started */
+/* testimonials section completed */
+
+/* Contact us section started */
+
+
+.contact-form{
+    width: 100%;
+    height: 100vh;
+    margin-top: 180px;
+    margin-bottom: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heading-contact{
+    font-size: 34px;
+    color: #7B5CD1;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.heading-contact::after{
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: -8px;
+    background-color: #7B5CD1; 
+    width: 56px;
+    height: 2px;
+}
+
+.form-origin{
+    margin: auto;
+    width: 90%;
+    height: 460px;
+    background-color: rgb(42, 41, 41);
+    padding: 40px 30px;
+    border-radius: 8px;
+    align-items: center;
+    /* align-content: center; */
+}
+
+.form-origin input{
+    height: 40px;
+    color: #777 !important;
+    font-size: 14px;
+    border: 1px solid #e4e3e3;
+    background-color: transparent;
+    border-radius: 5px;
+    outline: none;
+    padding: 16px 22px;
+    margin-bottom: 30px;
+}
+
+::placeholder{
+    color: rgb(255,255,255,0.874) !important;
+}
+
+.form-origin textarea{
+    height: 200px;
+    padding: 20px;
+    font-size: 14px;
+    background-color: transparent;
+    color: #777;
+}
+
+.btn-contact{
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 25px;
+    padding: 15px 25px;
+    border: none;
+    outline: none;
+    background-color:#7B5CD1 ;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px 0px;
+    border: 2px solid #7B5CD1;
+}
+
+.content-contact{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 8px 18px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.heading-content{
+    color: white;
+    margin-bottom: 30px ;
+    font-size: 42px;
+    text-transform: capitalize;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.heading-content span{
+    color: #7B5CD1;
+}
+
+.para-content{
+    font-size: 15px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.918);
+    margin: 16px 0px;
+}
+
+/* Contact us section completed */
+
+/* footer section started  */
+
+footer{
+    background-color: rgb(4, 4, 4);
+    margin: 0px 0px !important;
+    height: 10vh;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+

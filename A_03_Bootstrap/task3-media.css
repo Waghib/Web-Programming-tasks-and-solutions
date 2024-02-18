@@ -1,0 +1,249 @@
+@media (max-width:991px)
+{
+
+    .navbar{
+        background-color: white;
+    }
+    .nav-item .nav-link{
+        color: black;
+        font-size: 17px;
+        font-weight: 600;
+    }
+
+    .logo{
+        color: black !important;
+    }
+        
+    .navbar-nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar-nav .nav-item{
+        margin: 8px 0px;
+    }
+
+    .navbar-toggler-icon {
+        width: 50px !important; 
+        height: 40px !important;
+        /* border: solid black; */
+        border-radius: 1px;
+        border-width: 1px; 
+    }
+    
+    .fa-bars{
+        position: relative;
+        color: black;
+        padding-top: 8px;
+        size: 40;
+    }
+
+    /* .content-about{
+        margin-top: 1px;
+    } */
+
+    .img-about{
+        height: 80%;
+        width: 100%;
+        position: static;
+        top: 0px;
+        right: 0px;
+    }
+
+    .about-us-container{
+        height: 80vh !important;
+    }
+
+    .about-us{
+        margin-top: 0px;
+    }
+
+    .product-category{
+        width: 100%;
+        height: auto;
+    }
+
+    .heading-product{
+        margin-top: 230px;
+        margin-bottom: 50px;
+    }
+
+    .card-product3{
+        margin-top: 10px !important;
+        margin-left: 22px !important;
+        width: 93% !important;
+    }
+
+    .card-product3-b{
+        margin-top: 10px !important;
+        margin-left: 22px !important;
+        width: 93% !important;
+    }
+
+    .contact-form{
+        margin-top: 700px !important;
+    }
+
+    /* .heading-contact{
+        margin-top: 20px;
+
+    } */
+
+    .form-origin{
+        height: 530px;
+        margin-bottom: 50px;
+    }
+
+    /* .content-contact{
+        margin-bottom: 100px !important;
+    } */    
+}
+
+@media (max-width:767px)
+{
+
+    .content-home2 {
+        margin-top: 10px;
+    }
+    .about-us-container {
+        margin-top: 250px;
+    }
+
+    .card-product{
+        width: 80%;
+    }
+    .card-product2{
+        margin-top: 10px !important;
+        margin-left: 25px !important;
+    }
+    .card-product3{
+        width: 80% !important;
+        margin-top: 10px !important;
+        margin-left: 25px !important;
+    }
+    .card-product2-b{
+        /* width: 80% !important; */
+        margin-top: 10px !important;
+        margin-left: 25px !important;
+    }
+    .card-product3-b{
+        width: 80% !important;
+        margin-top: 10px !important;
+        margin-left: 25px !important;
+    }
+    
+    .para-content{
+        margin-bottom: 150px !important;
+    }
+
+    .heading-contact{
+        margin-top: 90px;
+        margin-bottom: 25px;
+    }
+
+    footer{
+        margin-bottom: 0px !important;
+    }
+
+}
+
+@media (max-width:643px){
+    .form-origin{
+        margin: auto;
+        width: 70%;
+        height: 460px;
+    }
+
+    .btn-contact{
+        font-size: 8px;
+        width: 100px;
+        padding: 10px;
+        margin-top: 15px;
+    }
+
+    .heading-content{
+        margin-bottom: 20px ;
+        font-size: 30px;
+        margin: auto;
+        margin-top: 20px;
+        font-weight: 500;
+    }
+
+    .heading-testimonials{
+        font-size: 30px;
+        font-weight: 500;
+    }
+}
+
+@media (max-width:613px){
+    .container-content{
+        width: 70%;
+        height: 320px;
+        margin: auto;
+    }
+
+    .heading-contact{
+        margin-top: 0% !important;
+    }
+
+    .para-content{
+        margin-bottom: 0% !important;
+    }
+
+    .home-heading{
+        font-size: 35px;
+        font-weight: 600;
+        line-height: 74px;
+        margin-left: 50px;
+    }
+
+    .para-home {
+
+        margin-left: 50px;
+    }
+
+    .home-links {
+        margin-left: 50px;
+        margin-right: 0px;
+    }
+
+    .home-links:nth-child(2)
+    {
+        margin-left: 5px !important;
+    }
+
+    .product-card{
+        margin-right: 0px !important;
+    }
+
+    .about-us{
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    .heading-about {
+        font-size: 25px;
+    }
+
+    .para-about {
+        font-size: 8px;
+        font-weight: 300;
+        color: rgb(255, 255, 255, 0.695);
+        line-height: 21px;
+        margin: 20px 0px;
+    }
+
+    
+    .heading-product{
+        margin-top: 130px;
+    }
+
+
+    .contact-form{
+        margin-top: 500px !important;
+    }
+ 
+}
+
+

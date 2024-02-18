@@ -7,37 +7,39 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="task3-styles.css">
+    <link rel="stylesheet" href="task3-media.css">
     <title>Document</title>
     <script src='https://kit.fontawesome.com/4c729db828.js' crossorigin='anonymous'></script>
   </head>
 
   <body>
     <div class="header">
-      <div class="container-fluid">
-        <!-- navbar -->
+      <div class="container-fluid gx-0">
+
+        <!-- navbar start -->
+
         <nav class="navbar navbar-expand-lg">
           <div class="container">
             <a class="navbar-brand logo" href="#">TechNova</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon">
+                <i class="fa-solid fa-bars"></i>
+              </span>
+          </button>
+          
             <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ms-auto">
+              <ul class="navbar-nav ms-auto"> <!--something-->
                 <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="#">Home</a>
+                  <a class="nav-link" aria-current="page" href="#home">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">About Us</a>
+                  <a class="nav-link" href="#about">About Us</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Laptops</a>
+                  <a class="nav-link" href="#products">Products</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Products</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
+                  <a class="nav-link" href="#contact">Contact</a>
                 </li>
                 <li class="nav-item">
                   <a class="navbar-btn" href="#">Buy Now</a>
@@ -50,7 +52,7 @@
 
 
         <div class="container">
-          <div class="content-home">
+          <div id= "home" class="content-home">
             <div class="row content-home2">
               <div class="col-lg-7 col-md-5">
                 <div class="box-container">
@@ -80,34 +82,36 @@
     <!-- home part completed -->
 
     <!-- About Us -->
-    <div class="container">
-      <div class="about-us-container">
-        <div class="about-us">
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="content-about">
-                <h3 class="heading-about">About Us</h3>
-                <p class="para-about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-                  saepe dolorum placeat hic possimus minus, officiis architecto ab eaque ut nemo
-                  laboriosam debitis mollitia quia tenetur fuga aspernatur repellendus ullam!</p>
-                <p class="para-about">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At
-                  repudiandae autem temporibus tenetur</p>
-                <a href="#" class="link-about"><span class="span-about"></span>Read More
-                  <span class="icon-arrow"><i class="fa-solid fa-arrow-right"></i></span></a>
+    <section id="about">
+      <div  class="container">
+        <div class="about-us-container">
+          <div class="about-us">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="content-about">
+                  <h3 class="heading-about">About Us</h3>
+                  <p class="para-about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+                    saepe dolorum placeat hic possimus minus, officiis architecto ab eaque ut nemo
+                    laboriosam debitis mollitia quia tenetur fuga aspernatur repellendus ullam!</p>
+                  <p class="para-about">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At
+                    repudiandae autem temporibus tenetur</p>
+                  <a href="#" class="link-about"><span class="span-about"></span>Read More
+                    <span class="icon-arrow"><i class="fa-solid fa-arrow-right"></i></span></a>
+                </div>
               </div>
-            </div>
-            <div class="col-lg-6">
-              <img src="images/Aboutus_pic_laptop.jpg" alt="img" class="img-about">
+              <div class="col-lg-6">
+                <img src="images/Aboutus_pic_laptop.jpg" alt="img" class="img-about">
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
     <!--About us part end-->
 
     <!-- product section started  -->
-    <section class="product-category">
+    <section id="products" class="product-category">
       <h2 class="heading-product">Product Category</h2>
       <div class="container-fluid">
 
@@ -122,7 +126,7 @@
                 <div class="row">
                   <div class="col-lg-4 col-md-6">
 
-                    <div class="card w-78 ms-4 card-product">
+                    <div class="card w-78 ms-4 card-product card-product1">
                       <img src="images/laptop_category2.jpg" class="card-img-top img-card" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">Laptop 1</h5>
@@ -138,7 +142,7 @@
 
                   <div class="col-lg-4 col-md-6">
 
-                    <div class="card w-78 ms-3 me-2 card-product">
+                    <div class="card w-78 ms-3 me-2 card-product card-product2">
                       <img src="images/laptop_category2.jpg" class="card-img-top img-card" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">Laptop 1</h5>
@@ -154,7 +158,7 @@
 
                   <div class="col-lg-4 col-md-6">
 
-                    <div class="card w-78 ms-2 me-4 card-product">
+                    <div class="card w-78 ms-2 me-4 card-product card-product3">
                       <img src="images/laptop_category2.jpg" class="card-img-top img-card" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">Laptop 1</h5>
@@ -192,7 +196,7 @@
 
                   <div class="col-lg-4 col-md-6">
 
-                    <div class="card w-78 ms-3 me-2 card-product">
+                    <div class="card w-78 ms-3 me-2 card-product card-product2-b">
                       <img src="images/laptop_category2.jpg" class="card-img-top img-card" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">Laptop 1</h5>
@@ -208,7 +212,7 @@
 
                   <div class="col-lg-4 col-md-6">
 
-                    <div class="card w-78 ms-2 me-4 card-product">
+                    <div class="card w-78 ms-2 me-4 card-product card-product3-b">
                       <img src="images/laptop_category2.jpg" class="card-img-top img-card" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">Laptop 1</h5>
@@ -387,11 +391,70 @@
     <!-- testimonials section completed -->
 
     <!-- Contact form -->
+    <section id="contact" class="contact-form">
+      <h3 class="heading-contact">Contact Us</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-12">
+            <form class="form-origin">
+              <div class="row">
+                
+                <div class="col-lg-6 col-md-12">
+                  <div class="mb-3">
+                    <input type="text" class="form-control" placeholder="Full Name*" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  </div>
+                </div>
+
+                <div class="col-lg-6 col-md-12">
+                  <div class="mb-3">
+                    <input type="email" class="form-control" placeholder="Email Address*" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="mb-3">
+                      <textarea class="form-control" placeholder="Your Message"  id="exampleFormControlTextarea1" ></textarea>
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="mb-3 text-center">
+                      <a href="#" class="btn-contact">Send Message</a>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-lg-6 col-md-12">
+            <div class="content-contact">
+              <h2 class="heading-content">More About <span>TechNova</span></h2>
+              <p class="para-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea consequuntur pariatur repellendus in quod? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis, dolorum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, perspiciatis?</p>
+
+              <div class="social-links">
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact us section completed -->
+
+    <footer>
+      <p class="para-footer">&#169 CopyRights By Waghib Ahmad</p>
+    </footer>
 
 
 
-
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-pzjw8f+UA0FkLrW9z8HOur73vuHuh5CLOxo2PxjG64E9VFA1k4b+XCEZJzG5sfLl" crossorigin="anonymous"></script>
   </body>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
     integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
