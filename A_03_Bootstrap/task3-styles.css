@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
@@ -8,34 +8,34 @@
     color: white;
 }
 
-body{
+body {
     background-color: #232323;
     overflow-x: hidden;
 }
 
-.header{
+.header {
     height: 100vh;
     width: 100%;
 }
 
-.navbar{
+.navbar {
     padding: 15px 18px !important;
 
 }
 
-.logo{
+.logo {
     font-weight: 600;
-    color: rgb(255,255,255,0.848) !important;
+    color: rgb(255, 255, 255, 0.848) !important;
 }
 
-.nav-item .nav-link{
-    color: rgb(255,255,255,0.92);
+.nav-item .nav-link {
+    color: rgb(255, 255, 255, 0.92);
     font-size: 14px;
     font-weight: 500;
     position: relative;
 }
 
-.nav-link::after{
+.nav-link::after {
     content: '';
     position: absolute;
     bottom: -1px;
@@ -46,19 +46,19 @@ body{
     transition: 0.4s ease-in-out;
 }
 
-.nav-item:hover .nav-link::after{
+.nav-item:hover .nav-link::after {
     width: 100%;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     color: #7B5CD1;
 }
 
-.nav-item{
+.nav-item {
     margin: 0px 10px;
 }
 
-.navbar-btn{
+.navbar-btn {
     display: inline-block;
     padding: 10px 43px;
     border: 1px solid #7B5CD1;
@@ -71,38 +71,39 @@ body{
     transition: 0.2s ease;
 }
 
-.navbar-btn:hover{
+.navbar-btn:hover {
     color: white;
     background-color: transparent;
     /* color: #7B5CD1 */
     border: 1px solid #7B5CD1;
 }
-/*home section*/
 
-.content-home2{
-height: 90vh;
-width: 100%;
-display: flex;
-justify-content: space-between;
-align-items: center;
+/*home section started*/
+
+.content-home2 {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.home-heading{
+.home-heading {
     font-size: 41px;
     font-weight: 700;
     line-height: 74px;
 }
 
-.para-home{
+.para-home {
     font-size: 13px;
     font-weight: 500;
-    color:rgba(255, 255, 255, 0.42);
+    color: rgba(255, 255, 255, 0.42);
     max-width: 400px;
     line-height: 24px;
     margin: 14px 0px;
 }
 
-.home-links{
+.home-links {
     display: inline-block;
     text-decoration: none;
     color: white;
@@ -120,36 +121,39 @@ align-items: center;
     transition: 0.2s ease;
 }
 
-.home-span{
+.home-span {
     color: #7B5CD1;
 }
 
-.home-links:hover{
+.home-links:hover {
     color: #7B5CD1;
     background-color: white;
     /* color: #7B5CD1 */
     border: 1px solid white;
 }
 
-/* about us  section*/
+/*home section started*/
 
-.about-us-container{
+/* about us section started*/
+
+.about-us-container {
     width: 100%;
     height: 80vh;
 }
-    
-.about-us{
+
+.about-us {
     width: 100%;
     height: 320px;
     background-color: rgb(54, 54, 54);
     margin-top: 140px;
+    position: relative;
 }
-   
-.content-about{
+
+.content-about {
     padding: 10px 36px;
 }
 
-.heading-about{
+.heading-about {
     font-size: 35px;
     font-weight: bold;
     letter-spacing: 1px;
@@ -159,7 +163,7 @@ align-items: center;
     position: relative;
 }
 
-.heading-about::after{
+.heading-about::after {
     content: '';
     position: absolute;
     left: 0px;
@@ -169,11 +173,156 @@ align-items: center;
     height: 2px;
 }
 
-.para-about{
+.para-about {
     font-size: 13px;
     font-weight: 500;
-    color: rgb(255,255, 255,0.695);
+    color: rgb(255, 255, 255, 0.695);
     line-height: 21px;
     margin: 25px 0px;
 }
 
+.link-about {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #7B5CD1;
+    border: 1px solid #7B5CD1;
+    color: #7B5CD1;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 8px 22px;
+    position: relative;
+    z-index: 22;
+}
+
+.link-about:hover {
+    color: white;
+}
+
+.span-about {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #7B5CD1;
+    width: 0%;
+    height: 100%;
+    z-index: -1;
+    transition: 0.4s ease-in;
+}
+
+.link-about:hover .span-about {
+    width: 100%;
+}
+
+.fa-arrow-right {
+    color: #7B5CD1;
+    font-size: 11px;
+    margin-left: 5px;
+}
+
+.fa-arrow-right:hover {
+    color: white;
+}
+
+.img-about {
+    height: 420px;
+    width: 50%;
+    position: absolute;
+    top: -36px;
+    right: 20px;
+}
+
+/* about us section started*/
+
+/* product section started*/
+
+.product-category {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 4px;
+}
+
+.heading-product {
+    font-size: 34px;
+    color: #7B5CD1;
+    margin-bottom: 120px;
+    position: relative;
+}
+
+.heading-product::after {
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: -8px;
+    background-color: #7B5CD1;
+    width: 56px;
+    height: 2px;
+}
+
+.card-product {
+    padding: 14px 10px;
+    background-color: #242424 !important;
+    border-color: #7B5CD1;
+}
+
+.img-card {
+    height: 190px !important;
+}
+
+.card-title {
+    font-size: 14px;
+    color: #7B5CD1;
+    width: 100%;
+    border-bottom: 1px solid #7B5CD1;
+    padding: 5px 0px;
+    margin: 10px 0px;
+    margin-bottom: 20px !important;
+}
+
+.card-text {
+    color: rgba(255, 255, 255, 0.873);
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.btn-product-ctg {
+    color: #7B5CD1;
+    text-decoration: none;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.btn-product-ctg:hover {
+    color: rgba(255, 255, 255, 0.873);
+}
+
+
+.button-left{
+    position: absolute;
+    left: 20px;
+    padding: 10px 12px;
+    color: black;
+    border-radius: 30px;
+    background-color: #2c2c2c;
+    font-size: 18px;
+}
+
+.button-right{
+    position: absolute;
+    right: 20px;
+    padding: 10px 12px;
+    color: black;
+    border-radius: 30px;
+    background-color: #2c2c2c;
+    font-size: 18px;
+}
+
+.button-right:hover{
+    color: black
+}
+
+/* production section completed  */
