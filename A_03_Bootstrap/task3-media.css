@@ -247,3 +247,62 @@
 }
 
 
+@media (max-width: 600px) {
+    .content-about {
+        padding: 10px 15px;
+    }
+
+    .para-client {
+        font-size: 9px;
+        margin-bottom: 0px;
+        margin-top: 2px;
+    }
+
+    .para-about{
+        font-size: 9px;
+        margin-bottom: 0px;
+        margin-top: 1px;
+    }
+
+    a.link-about{
+        font-size: 8px;
+        padding: 8px 9px;
+    }
+
+    .profession{
+        margin-top: 0px;
+        font-size: 8px;
+    }
+    /* .container-fluid{
+        size: 100px;
+    } */
+}
+
+/* Samsung Galaxy S8+ */
+@media screen and (device-width: 360px) and (device-height: 740px)
+{
+    p.para-about{
+        font-size: 8px;
+        margin-bottom: 0px;
+        margin-top: 1px;
+    }
+
+    .heading-about{
+        font-size: 20px;
+    }
+
+    .profession{
+        margin-top: 0px;
+        font-size: 8px;
+    }
+
+    .para-client {
+        font-size: 8px;
+        margin-bottom: 0px;
+        margin-top: 1px;
+    }
+
+    .client-name{
+        font-size: 17px;
+    }
+}
