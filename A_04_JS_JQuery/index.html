@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Form Validation</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="scripts.js"></script>
+</head>
+
+<body>
+  <div class="form-container">
+    <!-- Login Form -->
+    <div class="login-form">
+      <header>Sign In</header>
+      <form action="#">
+        <input type="text" name="username" placeholder="Enter your username" required>
+        <input type="password" name="password" placeholder="Enter your password" required>
+        <a href="#">Forgot password?</a>
+        <input type="submit" class="button" value="Login">
+      </form>
+      <div class="toggle-form">
+        <span>Don't have an account? <label id="signup-link">Signup</label></span>
+      </div>
+    </div>
+
+    <!-- Signup Form -->
+    <div class="signup-form">
+      <header>Sign Up</header>
+      <form action="#" class="signup-fields">
+        <div class="main-fields">
+          <input type="text" name="username" placeholder="Enter your username" required>
+          <input type="text" name="email" placeholder="Enter your email" required>
+          <input type="password" name="password" placeholder="Create a password" required>
+          <input type="password" name="confirmPass" placeholder="Confirm your password" required>
+        </div>
+
+        <div class="additional-fields">
+          <input type="text" name="phone" placeholder="Enter your phone number" required>
+          <input type="text" name="address" placeholder="Enter your address" required>
+          <input type="text" name="city" placeholder="Enter your city" required>
+          <input type="text" name="country" placeholder="Enter your country" required>
+        </div>
+
+        <!-- Signup button -->
+        <input type="submit" class="button" value="Signup">
+      </form>
+      <div class="toggle-form">
+        <span>Already have an account? <label id="login-link">Login</label></span>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
